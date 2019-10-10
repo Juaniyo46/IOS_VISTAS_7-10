@@ -19,5 +19,30 @@
     // Do any additional setup after loading the view.
 }
 
+- (void) viewDidAppear:(BOOL)animated{
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Bienvenido a es[tech]" message:@"Selecciona el ciclo que estás estudiando" preferredStyle:UIAlertControllerStyleAlert];
+    
+    //Add Buttons
+    
+    UIAlertAction* damButton = [UIAlertAction actionWithTitle:@"DAM" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+        //Handle your yes please button action here
+        self->_cicloName.text = [[NSString alloc] initWithFormat:@"%@ DAM", self->_cicloName.text];
+    }];
+    
+    UIAlertAction* vjButton = [UIAlertAction actionWithTitle:@"Videojuegos" style:UIAlertActionStyleDefault handler:^(UIAlertAction * action) {
+        self->_cicloName.text = [[NSString alloc] initWithFormat:@"%@ VJ", self->_cicloName.text];
+    }];
+    
+    //Add your buttons to alert controller
+    
+    [alert addAction:damButton];
+    [alert addAction:vjButton];
+    
+    [self presentViewController:alert animated:YES completion:nil];
+    
+}
 
+
+- (IBAction)btnLogin:(id)sender {
+}
 @end

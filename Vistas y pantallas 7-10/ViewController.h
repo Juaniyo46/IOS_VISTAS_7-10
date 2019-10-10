@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *cicloName;
+@property (weak, nonatomic) IBOutlet UITextField *labelUser;
+@property (weak, nonatomic) IBOutlet UITextField *labelPass;
+
+- (IBAction)btnLogin:(id)sender;
 
 @end
 

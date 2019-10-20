@@ -38,11 +38,24 @@
     [alert addAction:damButton];
     [alert addAction:vjButton];
     
+    //View the alert
     [self presentViewController:alert animated:YES completion:nil];
     
 }
 
 
 - (IBAction)btnLogin:(id)sender {
+    
+    if ([_labelUser.text isEqual:@""] || [_labelPass.text isEqual:@""]){
+        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Error" message:@"Los campos de acceso no estan rellenos" preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertAction *exitAlert = [UIAlertAction actionWithTitle:@"Ok" style:UIAlertActionStyleCancel handler:nil];
+        [alert addAction:exitAlert];
+        
+        [self presentViewController:alert animated:YES completion:nil];
+    }else {
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        
+        InViewController *newViewController = (InViewController *) [storyboard instantiateViewControllerWithIdentifier:@"inViewControler"];
+    }
 }
 @end

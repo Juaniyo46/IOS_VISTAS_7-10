@@ -13,6 +13,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *cicloName;
 @property (weak, nonatomic) IBOutlet UITextField *labelUser;
 @property (weak, nonatomic) IBOutlet UITextField *labelPass;
+@property (weak, nonatomic) IBOutlet UIButton *btnLogin;
 
 - (IBAction)btnLogin:(id)sender;
 

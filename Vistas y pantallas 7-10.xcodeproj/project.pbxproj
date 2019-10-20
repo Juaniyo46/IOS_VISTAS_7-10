@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		302ED203235C6FD700247342 /* InViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302ED202235C6FD700247342 /* InViewController.m */; };
 		84DB5796234B7882004E3771 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB5795234B7882004E3771 /* AppDelegate.m */; };
 		84DB5799234B7882004E3771 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB5798234B7882004E3771 /* SceneDelegate.m */; };
 		84DB579C234B7882004E3771 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB579B234B7882004E3771 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		302ED201235C6FC200247342 /* InViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InViewController.h; sourceTree = "<group>"; };
+		302ED202235C6FD700247342 /* InViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InViewController.m; sourceTree = "<group>"; };
 		84DB5791234B7882004E3771 /* Vistas y pantallas 7-10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vistas y pantallas 7-10.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DB5794234B7882004E3771 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84DB5795234B7882004E3771 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -115,6 +118,8 @@
 				84DB57A2234B7883004E3771 /* LaunchScreen.storyboard */,
 				84DB57A5234B7883004E3771 /* Info.plist */,
 				84DB57A6234B7883004E3771 /* main.m */,
+				302ED201235C6FC200247342 /* InViewController.h */,
+				302ED202235C6FD700247342 /* InViewController.m */,
 			);
 			path = "Vistas y pantallas 7-10";
 			sourceTree = "<group>";
@@ -269,6 +274,7 @@
 			files = (
 				84DB579C234B7882004E3771 /* ViewController.m in Sources */,
 				84DB5796234B7882004E3771 /* AppDelegate.m in Sources */,
+				302ED203235C6FD700247342 /* InViewController.m in Sources */,
 				84DB57A7234B7883004E3771 /* main.m in Sources */,
 				84DB5799234B7882004E3771 /* SceneDelegate.m in Sources */,
 			);

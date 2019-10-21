@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "InViewController.h"
 
 @interface ViewController ()
 
@@ -56,6 +57,11 @@
         UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
         
         InViewController *newViewController = (InViewController *) [storyboard instantiateViewControllerWithIdentifier:@"inViewControler"];
+        
+        newViewController.LbBienvenida.text = [NSString stringWithFormat:@"Bienvenido %@",newViewController.userName];
+        
+        [[self navigationController] pushViewController:newViewController animated:YES];
+        
     }
 }
 @end

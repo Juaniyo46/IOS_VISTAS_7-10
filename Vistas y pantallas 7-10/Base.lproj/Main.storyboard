@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hbX-1q-4zb">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -10,7 +10,6 @@
         <!--Terminos y condiciones-->
         <scene sceneID="JKG-wq-Q1z">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="61t-3R-pb2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="zqM-s1-mwB" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="v91-aU-QZo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -38,6 +37,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Terminos y condiciones" id="hKA-22-0Jb"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="61t-3R-pb2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-794" y="4"/>
         </scene>
@@ -313,7 +313,7 @@
         <!--In View Controller-->
         <scene sceneID="XWP-i2-zZg">
             <objects>
-                <viewController id="0cy-dW-Ebz" customClass="InViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="inViewControler" id="0cy-dW-Ebz" customClass="InViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Fi-kO-2U7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
